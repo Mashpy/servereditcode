@@ -36,12 +36,6 @@
         "onclick": "codiad.project.list();"
     },
     {
-        "title": "Users",
-        "admin": true,
-        "icon": "icon-users",
-        "onclick": "codiad.user.list();"
-    },
-    {
         "title": "System",
         "admin": true,
         "icon": null,
@@ -52,12 +46,6 @@
         "admin": true,
         "icon": "icon-cloud",
         "onclick": "codiad.market.list();"
-    },
-    {
-        "title": "Update Check",
-        "admin": true,
-        "icon": "icon-share",
-        "onclick": "codiad.update.check();"
     },
     {
         "title": "Account",
@@ -71,22 +59,11 @@
         "icon": "icon-doc-text",
         "onclick": "codiad.settings.show();"
     },
-    {
-        "title": "Password",
-        "admin": false,
-        "icon": "icon-flashlight",
-        "onclick": "codiad.user.password();"
-    },
+  
     {
         "title": "break",
         "admin": false,
         "icon": null,
         "onclick": null
-    },
-    {
-        "title": "Logout",
-        "admin": false,
-        "icon": "icon-logout",
-        "onclick": "codiad.user.logout();"
     }
 ]
