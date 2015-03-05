@@ -1,1 +1,1 @@
-<?php/*|[{"name":"servereditor201501040853","range":"file"}]|*/?>
+<?php/*|[{"name":"servereditor201501040853","range":"name"}]|*/?>
