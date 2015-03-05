@@ -11,10 +11,10 @@
 //////////////////////////////////////////////////////////////////
 
 // PATH TO CODIAD
-define("BASE_PATH", "/home/action/workspace/www");
+define("BASE_PATH", "base_path_old");
 
 // BASE URL TO CODIAD (without trailing slash)
-define("BASE_URL", "mashpy-180736.usw1-2.nitrousbox.com:80");
+define("BASE_URL", "base_uri_old");
 
 // THEME : default, modern or clear (look at /themes)
 define("THEME", "default");

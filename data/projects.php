@@ -1,1 +1,1 @@
-<?php/*|[{"name":"servereditor","path":"\/home\/action\/workspace\/www"}]|*/?>
+<?php/*|[{"name":"servereditor","path":"base_path_old_next"}]|*/?>
