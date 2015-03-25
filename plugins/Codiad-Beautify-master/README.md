@@ -2,6 +2,12 @@
 
 Beautify js, json, html, css or php files.
 
+###Channellog
+
+- 0.4.0 New settings dialog -> see editor settings
+- 0.4.05 Quick fix for issue #1
+- 0.4.1 Libraries updated
+
 ##Installation
 
 - Download the zip file and unzip it to your plugin folder.
