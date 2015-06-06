@@ -1445,8 +1445,6 @@ input:focus, select:focus, textarea:focus, button:focus{
 	outline:none;
 }
 html, body{
-	width:100%;
-	height:100%;
 	color:#999999;
 }
 body{
