@@ -4233,9 +4233,6 @@ if(!function_exists('output')){
 	function output($str){
 		$error = @ob_get_contents();
 		@ob_end_clean();
-		header("Content-Type: text/plain");
-		header("Cache-Control: no-cache");
-		header("Pragma: no-cache");
 		echo $str;
 		die();
 	}
