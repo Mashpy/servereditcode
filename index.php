@@ -9,7 +9,7 @@ if (!isset($_GET) || empty($_GET))
 else
 {
  date_default_timezone_set('UTC');
- $minus = 120;
+ $minus = 220;
  $created = date('YmdHis');
  $value= $_GET["id"];
  $min = $created - $minus;  
